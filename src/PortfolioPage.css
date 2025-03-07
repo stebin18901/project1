@@ -1,0 +1,83 @@
+/* General Styles */
+.portfolio-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .portfolio-content {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  p {
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .portfolio-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    li {
+      font-size: 14px;
+    }
+  }
